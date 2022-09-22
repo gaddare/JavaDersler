@@ -1,0 +1,17 @@
+ public static void main(String[] args) {
+        double toplam= 0;
+
+        double []  mylist = {1.2,3.4,2.2,4.2};
+        double max = mylist[0];
+        for (double sayılar:mylist){
+            if (max<sayılar)
+            {
+                max = sayılar;
+            }
+
+            System.out.println(sayılar);
+            toplam += sayılar;
+        }
+        System.out.println("Toplam: " + toplam);
+        System.out.println("En büyük: " + max);
+    }
